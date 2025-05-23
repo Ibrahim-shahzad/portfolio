@@ -1,9 +1,11 @@
 <html>
   <head>
+    <link rel="stylesheet" href="style.css" />
     <title>IBRAHIM SHAHZAD</title>
   </head>
   <body>
-    <ul>
+    <div class="container">
+    <ul style="display: flex; flex-direction: row;justify-content: center;">
       <li>HOME</li>
       <li><a href="./about.html">ABOUT</a></li>
       <li>PROJECTS</li>
@@ -11,11 +13,23 @@
       <li>EDUCATION</li>
       <li>CONTACT</li>
     </ul>
-    <h1>Hi, I'm Ibrahim</h1>
-    <h3>A 12th-grade student passionate about web designs</h3>
-    <button>Connect Me</button>
-    <button>My Blogs</button>
-    <img src="./assets/student.png" />
+    <div style="display: flex; flex-direction: row; height: 100%;align-items: center;">
+      <div style="width: 50%;">
+        <h1 class="redColorName backgroundColorBlue">
+          Hi, I'm Ibrahim 
+        </h1>
+        <h3 id="redColorText">A 12th-grade student passionate about web designs</h3>
+        <button>Connect Me</button>
+        <button>My Blogs</button>
+      </div>
+      <div style="background-color: aquamarine; display: flex; width: 50%;flex-direction: column;align-items: end ;height: 100%; justify-content: end;">
+        <img  class="landingImage" src="./assets/student.png" />
+      </div>
+    </div>
+    
+   
+  </div>
+   
     <div>
       <img src="./assets/Apple.png" />
       <h1>Apple website clone-new</h1>

@@ -1,0 +1,32 @@
+body{
+background: #1d1d1d;
+}
+#redColorText{
+    color: red;
+}
+#backgroundColorYellow{
+    background: yellow;  
+}
+.redColorName{
+ color: red;   
+}
+.backgroundColorBlue{
+    background: blue;   
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border: 20px dashed red;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.landingImage{
+    height: 600px;
+    object-fit: contain;
+}
