@@ -1,5 +1,5 @@
 body{
-background: #1d1d1d;
+background: #fefffd;
 }
 #redColorText{
     color: red;
@@ -29,4 +29,56 @@ background: #1d1d1d;
 .landingImage{
     height: 600px;
     object-fit: contain;
+}
+.redcolour{
+    background:red;
+}
+.whitecolour{
+    background-color: #fefffd;
+
+}
+.containerone{
+     display: flex;
+     flex-direction: row-reverse;
+     height: 100vh;
+}
+.left{
+    width:80%;
+    height:100%;
+    background-color: gray;
+}
+.right{
+    width:20%;
+    height:100%;
+    background-color: aquamarine;
+}
+.big{
+    height: 100%;
+    width:30%;
+    background-color: aquamarine;
+}
+.small{
+    height: 100%;
+    width:20%;
+    background-color: #fefffd;
+}
+.containertwo{
+    display: flex;
+     flex-direction: column;
+     height: 100vh;
+}
+.blue{
+    width:100%;
+    height:20%;
+    background-color: blue;
+}
+.aqgreen{
+     width: 100%;
+    height:20%;
+    background-color: aquamarine;
+}
+.aqwhite{
+    width: 100%;
+    height:20%;
+    background-color: #fefffd;
 }
