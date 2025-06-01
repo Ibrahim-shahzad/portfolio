@@ -62,3 +62,9 @@ background: #fefffd;
     width:20%;
     background-color: #fefffd;
 }
+.containertwo{
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-between;
+     height: 100vh;
+}
