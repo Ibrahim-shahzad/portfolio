@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 4 equal columns */
+    gap: 2px;
+  }
+  
+  .grid-container > div {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .box2{
+    height: 300px;
+    background-color: black !important;
+  }
+
+  .grid-container-mini {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 equal columns */
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  
+
+  .box {
+    background-color: red;
+    padding: 0px;
+    text-align: center;
+  }
