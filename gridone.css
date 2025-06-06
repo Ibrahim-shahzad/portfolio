@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns:repeat(5,100px);
+    grid-template-rows:repeat(5,100px);
+    grid-template-areas:
+    'box box box . . .'
+    'boxone boxone boxone boxone . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .';
+    align-content: end;
+    gap: 2px;
+}   
+.container > div{
+    background-color: red;
+    padding:1px;
+    text-align: center;
+}
+.box{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    grid-area: box;
+    
+}
+.boxone{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    grid-area: boxone;
+}
+.boxtwo{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    grid-area: boxtwo;
+     
+}
